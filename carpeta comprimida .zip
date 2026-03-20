@@ -1,0 +1,22 @@
+/******************************************************************************
+
+ Autor: Alejandro Medina Gonzalez
+ Fecha: 19/03/2026
+ Descripcion: el codigo realiza el calculo de la edad de una persona para determinar si es o no mayo de edad 
+
+*******************************************************************************/
+
+#include <iostream>
+
+using namespace std;
+int main(){
+    int edad;
+    cout << "ingresa tu edad: ";
+    cin >>edad;
+    if (edad >18 ){
+        cout << "Eres mayor de edad, puedes ingresar. " <<endl;
+        }else {
+            cout << " Eres menor de edad, disculpa. " <<endl;
+        }
+    return 0;
+}
